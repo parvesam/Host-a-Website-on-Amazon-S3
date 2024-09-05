@@ -36,9 +36,9 @@ Both the HTML file and the folder are crucial for the proper display of the webs
 
 ### Static Website Hosting on S3
 
-### Access Control Lists (ACLs)
+#### Access Control Lists (ACLs)
 
-An **Access Control List (ACL)** is a feature that allows you to manage who can control, access, and perform actions on the objects in your S3 bucket. By setting specific permissions, you can determine which users or groups have the ability to view, modify, or delete objects within the bucket.
+An **Access Control List (ACL)** is a feature that allows you to manage who can control, access, and perform actions on the objects in your S3 bucket. By setting specific permissions, you can determine which users or groups can view, modify, or delete objects within the bucket.
 
 #### Bucket Endpoints
 
@@ -59,6 +59,7 @@ Message: Access Denied
 This happened because the default settings for the bucket's display options were set to private.
 
 #### Resolution:
+
 To fix this, I navigated to the **Object** section in my S3 bucket, selected the files, clicked on the **Action** button, and chose the **Make public using ACL** option. This allowed the content to be publicly accessible.
 
 <img width="301" alt="Screenshot 2024-09-05 145707" src="https://github.com/user-attachments/assets/3ca92425-33d0-4225-9c01-3b44df6c7b33">
