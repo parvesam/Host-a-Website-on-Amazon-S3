@@ -1,7 +1,5 @@
 # Host-a-Website-on-Amazon-S3
 
----
-
 ### Overview
 Amazon S3 (Simple Storage Service) is used to store and retrieve any data online. In this project, I used Amazon S3 to host a static website by creating an S3 bucket and configuring Access Control Lists (ACLs) to make the content publicly accessible.
 
